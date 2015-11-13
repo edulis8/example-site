@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+		
+		<div class="container" id="main">
+			
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Logo"></a>
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						
+						<ul class="nav navbar-nav">
+							
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
+								<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li >
+										<a href="#">Example</a>
+									</li>
+									<li >
+										<a href="#">Sweet!</a>
+									</li>
+									<li >
+										<a href="#">Example</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">More Services</li>
+									<li >
+										<a href="#">Example</a>
+									</li>
+									<li >
+										<a href="#">Yeah!</a>
+									</li>
+									<li >
+										<a href="#">Example</a>
+									</li>
+								</ul>
+							</li>
+							
+						</ul>
+						<form class="navbar-form pull-left" >
+							
+							<input type="text" class="form-control" placeholder='Search this site...' id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+						<ul class="nav navbar-nav pull-right">
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class='glyphicon glyphicon-user'></span> My Account <strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									
+									<li >
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Example</a>
+									</li>
+									<li >
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Example</a>
+									</li>
+									<li class="divider"></li>
+									<li >
+										<a href="#" class="glyphicon glyphicon-off"> Example</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						</div><!--end nav-collapse -->
+						
+					</div>
+				<!-- end navbar and start carousel-->
+					
+				</div>
+				<div class="carousel slide" id="myCarousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+						<li data-slide-to="1" data-target="#myCarousel"></li>
+						<li data-slide-to="2" data-target="#myCarousel"></li>
+					</ol>
+					
+					<!-- wrapper for slide -->
+					<div class="carousel-inner">
+						
+						<div class="item active" id="slide1">
+							<div class="carousel-caption">
+								<h4>Example 1</h4>
+								<p>Lorem ipsum dolor sit pellat debitis sint optio amet ratione non corporis sapiente eius.</p>
+							</div>
+							</div><!-- item -->
+							<div class="item" id="slide2">
+								<div class="carousel-caption">
+									<h4>Example 2</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur</p>
+								</div>
+								</div><!-- item -->
+								<div class="item" id="slide3">
+									<div class="carousel-caption">
+										<h4>Example 3</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tempora .</p>
+									</div>
+									</div><!-- item -->
+									</div><!-- carousel inner -->
+									<!-- Controls -->
+									<a data-slide="prev" class="left carousel-control" href="#myCarousel"><span class="icon-prev"></span></a>
+									<a data-slide="next" class="right carousel-control" href="#myCarousel"><span class="icon-next"></span></a>
+									</div><!-- end carousel -->
+
+
+							<div class="row" id="bigCallout">
+								<div class="col-12">
+									<div class="alert alert-success alert-block fade in" id="successAlert">
+										<button class="close" type="button" data-dismiss="alert">&times;</button>
+										<h4>Success!</h4>
+										<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this bad boy</p>
+									</div>
+									<!--visible onlyl on small devices -->
+									<div class="well well-small visible-sm">
+										<a href="" class="btn btn-large btn-block btn-default">
+											<span class="glyphicon glyphicon-phone"></span>
+											 Give us a call!
+										</a>
+									</div><!-- end well small -->
+									<div class="well">
+										<div class="page-header">
+											<h1>A Fancy Header <small>Subheader text for extra awesome</small></h1>
+											<p class="lead">Some solid leading copy will help your users get engaged. Use this area to come up with something real nice.</p>
+											<p>Boring normal sized paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas facilis ab, tenetur saepe distinctio labore qui, odio similique aspernatur corporis molestiae harum omnis, rem officiis eaque dicta est necessitatibus molestias.</p>
+
+											<a href="" class="btn btn-large btn-warning" id="alertMe">Click A Nice Big Button</a>
+											<a href="" class="btn btn-large btn-link">Or a secondary link</a>
+
+										</div>
+									</div>
+
+								</div><!-- end col-12 -->
+
+
+
+										
+							</div><!-- end bigCallout -->
+										<div class="row" id="featuresHeading">
+										<div class="col-12">
+											<h2>More Features</h2>
+											<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla eius facilis voluptas quisquam, ipsam necessitatibus. Quos facilis et maiores, suscipit neque molestiae excepturi cumque tempora, at nihil a tempore totam. </p>
+										</div>
+											
+										</div>
+										<div class="row" id="features">
+											<div class="col-sm-4 feature">
+												<div class="panel">
+													<div class="panel-heading">
+														<h3 class="panel-title">Example 1</h3>
+													</div>
+														<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+														<p>PBR nisi gastropub, non typewriter distillery High Life aute tattooed sunt organic et squid</p>
+														<a href="" target="blank" class="btn btn-warning btn-block">Example 1</a>
+													
+												</div><!-- end panel -->
+											</div><!--end feature-->
+											<div class="col-sm-4 feature">
+												<div class="panel">
+													<div class="panel-heading">
+														<h3 class="panel-title">Example 2</h3>
+													</div>
+														<img src="images/badge_css3.jpg" alt="HTML5" class="img-circle">
+														<p>Lorem ipsum dolor sit amet, consecteturicabo fugiat eius tenetur mus blanditiis ipsam impedit sunt, ipsum exercitationem minus adipisci eaque rem nam?</p>
+														<a href="" target="blank" class="btn btn-danger btn-block">Example 2</a>
+													
+												</div><!-- end panel -->
+											</div><!--end feature-->
+											<div class="col-sm-4 feature">
+												<div class="panel">
+													<div class="panel-heading">
+														<h3 class="panel-title">Example 3</h3>
+													</div>
+														<img src="images/badge_bootstrap.jpg" alt="HTML5" class="img-circle">
+														<p>PBR nisi gastropub, non typewriter distillery High Life aute tattooed sunt organic et squid</p>
+														<a href="" target="blank" class="btn btn-info btn-block">Example 3</a>
+													
+												</div><!-- end panel -->
+											</div><!--end feature-->
+										</div><!--end features-->
+
+										<div class="row" id="moreInfo">
+											<div class="col-sm-6">
+												<h3>Neat Tabbable Content</h3>
+												<div class="tabbable">
+													<ul class="nav nav-tabs">
+														<li class="active">
+															<a href="#tab1" data-toggle="tab">Section 1</a>
+														</li>
+														<li>
+															<a href="#tab2" data-toggle="tab">Section 2</a>
+														</li>
+													</ul>
+													<div class="tab-content">
+														<div class="tab-pane active" id="tab1">
+															<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favorite surf spot</small></h4>
+
+															<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104386.299464471!2d-120.72970439551008!3d35.154828602180075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec587dc3f7d8cf%3A0xb9cb5298f0426fa5!2sPismo+Beach%2C+CA!5e0!3m2!1sen!2sus!4v1447456084001" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+															
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut beatae cum esse, fuga error, voluptas aliquid incidunt dicta, eum inventore. Debitis repudiandae aperiam necessitatibus quidem expedita, adipisci natus alias.</p>
+
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos expedita dicta, totam pariatur id! Adipisci blanditiis, recusandae, minima nulla culpa fugit repellat omnis maiores ab cum, dolor modi dolorem.</p>
+
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptates fuga non quaerat, qui dignissimos asperiores maiores temporibus in sequi voluptatibus repellat fugiat molestiae cum veniam accusamus harum quae molestias.</p>
+
+														</div>
+														<div class="tab-pane" id="tab2">
+															<h4>A Left Floated Picture <small>Using Placehold.it</small></h4>
+
+															<img class="thumbnail pull-left" src="http://placehold.it/140">
+
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate laboriosam repellendus iusto repudiandae odio, aperiam velit nesciunt dolores eligendi magnam minus eveniet dignissimos esse. Ab quod ducimus delectus voluptas.</p>
+
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eum accusamus vel alias architecto voluptate aspernatur, fuga amet neque delectus expedita temporibus ipsa reiciendis beatae earum libero quis sed quam.</p>
+
+															<hr>
+
+															<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window</a>
+
+															<div class="modal fade" id="myModal">
+																<div class="modal-dialog">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<button class="close" data-dismiss="modal">&times;</button>
+																			<h4 class="modal-title">A Modal Window</h4>
+																		</div>
+																		<div class="modal-body">
+																			<h4>Text in a Modal</h4>
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sit aliquid assumenda? Numquam fugit odio minima saepe architecto, accusantium aliquam consequatur corrupti necessitatibus, ea dolorem rem molestias, eveniet ipsa ratione.</p>
+
+																			<h4>Popovers in a modal</h4>
+
+																			<a href="#" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would!" class="btn btn-danger pop">Don't click this button</a>
+
+																			<h4>Tooltips in a modal</h4>
+																			<a href="" data-original-title="Tooltip" rel="tooltip" >This link</a> should have tooltips, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip" >this one.</a>
+
+																			<hr>
+
+																			<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+
+																			<form class="form-horizontal" action="">
+																				<div class="form-group">
+																					<label class="col-lg-2 control-label" for="inputName">Name:</label>
+																					<div class="col-lg-10">
+																						<input class="form-control" type="text" id="inputName" placeholder="Name">
+																					</div>
+																				</div>
+
+																					<div class="form-group">
+																					<label class="col-lg-2 control-label" for="inputEmail">Email:</label>
+																					<div class="col-lg-10">
+																						<input class="form-control" type="text" id="inputEmail" placeholder="Email">
+																					</div>
+																				</div>
+
+																					<div class="form-group">
+																					<label class="col-lg-2 control-label" for="inputMsg">Message:</label>
+																					<div class="col-lg-10">
+																						<textarea class="form-control" type="text" id="inputMsg" placeholder="Input Message" rows="3"></textarea>
+
+																						<button class="btn btn-success pull-right" type="submit">Send!</button>
+																					</div>
+																				</div>
+																				
+																			</form>
+
+																		</div>
+																		<div class="modal-footer">
+																				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+
+																				<button class="btn btn-primary" type="button">Save Changes</button>
+																			</div>
+																	</div>
+																</div><!-- end modal dialog -->
+															</div><!-- end myModal -->
+
+														</div>
+													</div>
+												</div>
+											</div><!--end col-sm-6 -->
+											<div class="col-sm-6">
+												<h3>Some Text Info</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, illum. Tempore commodi repellat, necessitatibus obcaecati nobis, reprehenderit blanditiis. Illo nostrum debitis nihil ex ab ut animi, praesentium quos at aspernatur.</p>
+
+												<h4>A List Group</h4>
+												<div class="list-group">
+													<a href="#" class="list-group-item">
+														<h4 class="list-group-item-heading">Kale</h4>
+														<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eius ipsam nostrum voluptate voluptas necessitatibus culpa. Nihil, sunt ducimus delectus quasi libero error, tempore earum nemo obcaecati ab blanditiis itaque.</p>
+													</a>
+													<a href="#" class="list-group-item">
+														<h4 class="list-group-item-heading">Cabbage</h4>
+														<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eius ipsam nostrum voluptate voluptas necessitatibus culpa. Nihil, sunt ducimus delectus quasi libero error, tempore earum nemo obcaecati ab blanditiis itaque.</p>
+													</a>
+													<a href="" class="list-group-item">
+														<h4 class="list-group-item-heading">Turnips</h4>
+														<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eius ipsam nostrum voluptate voluptas necessitatibus culpa. Nihil, sunt ducimus delectus quasi libero error, tempore earum nemo obcaecati ab blanditiis itaque.</p>
+													</a>
+												</div>
+
+												<h4>A Small Heading</h4>
+
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, nihil placeat, soluta consectetur accusantium harum, aspernatur numquam temporibus iure minus hic a rerum. Ad adipisci ullam earum. Impedit, vitae expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nobis reprehenderit, ea, eligendi doloribus reiciendis neque excepturi dolorem atque architecto consectetur iste alias fugit odio tenetur non ducimus temporibus ratione!</p>
+
+											</div><!--end col-sm-6 -->	
+										</div>
+										
+										<hr>
+
+										<div class="row" id="moreCourses">
+											<div class="col-12">
+												<h3>Learn more about Cool Stuff</h3>
+												<div class="thumnails row">
+													<div class="col-6">
+														<div class="thumbnail">
+															<img src="images/boletusedulis.jpg" alt="Boletus Edulis">
+															<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>39</div>
+															<div class="caption">
+																<h3>Mushroom ID</h3>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quo quos, temporibus praesentium, est in ad inventore quam pariatur recusandae autem aspernatur dignissimos porro ipsam quisquam, fugit, reiciendis et ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus atque molestias, sit voluptas et officiis, eveniet perferendis nisi praesentium quos consequuntur, tenetur harum debitis. Voluptatem nostrum in repudiandae porro quia!</p>
+																<p><a href="#" class="btn btn-primary btn-small" target="_blank">Take course</a> <a href="#" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+															</div>
+														</div>
+													</div>
+														<div class="col-6">
+														<div class="thumbnail">
+															<img src="images/sapote.jpg" alt="Web Hosting 102">
+															<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Free</div>
+															<div class="caption">
+																<h3>Tropical Fruit Tasting</h3>
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quo quos, temporibus praesentium, est in ad inventore quam pariatur recusandae autem aspernatur dignissimos porro ipsam quisquam, fugit, reiciendis et ab.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus atque molestias, sit voluptas et officiis, eveniet perferendis nisi praesentium quos consequuntur, tenetur harum debitis. Voluptatem nostrum in repudiandae porro quia!</p>
+
+
+
+																<p><a href="#" class="btn btn-primary btn-small" target="_blank">Take course</a> <a href="#" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+															</div>
+														</div>
+													</div>
+												</div><!-- end row-->
+											</div>
+										</div>
+									</div>
+									<footer>
+										<div class="container">
+											<div class="row">
+												<div class="col-sm-2">
+													<h6>Copyright &copy; 2015 Eric Broberg</h6>
+												</div>
+												<div class="col-sm-4">
+													<h6>About Me</h6>
+													<p>Lorem que cupiditate amet distinctio laudantium nesciunt aliquam adipisci eveniet dicta facere officia.</p>
+												</div>
+												<div class="col-sm-2">
+													<h6>Navigation</h6>
+													<ul class="unstyled">
+														<li><a href="">Home</a></li>
+														<li><a href="">Services</a></li>
+														<li><a href="">Etc</a></li>
+														<li><a href="">More Etc</a></li>
+													</ul>
+												</div>
+												<div class="col-sm-2">
+												<h6>Follow Us</h6>
+												<ul class="unstyled">
+														<li><a href="">Twitter</a></li>
+														<li><a href="">Facebook</a></li>
+														<li><a href="">Google+</a></li>
+														<li><a href="">Pinterest</a></li>
+													</ul>
+													
+												</div>
+												<div class="col-sm-2">
+													<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Eric</h6>
+												</div>
+											</div>
+										</div>
+
+										
+									</footer>
+									<div id="test">
+										
+									</div>
+									
+									<!-- All Javascript at the bottom of the page for faster page loading -->
+									
+									<!-- First try for the online version of jQuery-->
+									<script src="http://code.jquery.com/jquery.js"></script>
+									
+									<!-- If no online access, fallback to our hardcoded version of jQuery -->
+									<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+									
+									<!-- Bootstrap JS -->
+									<script src="bootstrap/js/bootstrap.min.js"></script>
+									
+									<!-- Custom JS -->
+									<script src="includes/js/script.js"></script>
+									
+								</body>
+							</html>
