@@ -139,7 +139,7 @@ ul.unstyled {
    position: relative;
 }
 
-.thumnail h3 {
+.thumbnail h3 {
    font-size: 16px;
    margin: 0 0 10px;
    line-height: 20px;
@@ -160,6 +160,13 @@ ul.unstyled {
 
 .thumbnail span.glyphicon {
    margin-right: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+   margin-top: 20px;
 }
 
 /* --------------------------------------
